@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ParentComponent from './callback/ParentComponent';
+import CounterOne from './custom/CounterOne';
+import CounterTwo from './custom/CounterTwo';
+import DocTitleOne from './custom/DocTitleOne';
+import DocTitleTwo from './custom/DocTitleTwo';
+import UserForm from './custom/UserForm';
+import Counter from './memo/Counter';
+import FocusInput from './refs/FocusInput';
+import HookTimer from './refs/HookTimer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/*} <ParentComponent/> 
+   <Counter/>
+   <FocusInput/>
+   <HookTimer/>{*/}
+   <DocTitleOne/>
+   <DocTitleTwo/>
+   <CounterOne/>
+   <CounterTwo/>
+   <UserForm/>
     </div>
   );
 }
